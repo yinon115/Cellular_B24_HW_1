@@ -32,7 +32,6 @@ public class ActivityGame_KB extends AppCompatActivity {
     private int playerLocation;
     private int life;
     Timer timer = new Timer();
-    GameManager gameManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
