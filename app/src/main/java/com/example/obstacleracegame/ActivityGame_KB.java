@@ -100,8 +100,6 @@ public class ActivityGame_KB extends AppCompatActivity {
                 restartLives();
                 Toast.makeText(this, "Life's Full", Toast.LENGTH_SHORT).show();
             }
-
-            //Toast.makeText(this, "You Lost 1 Life", Toast.LENGTH_SHORT).show();
             Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             v.vibrate(VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE));
         }
