@@ -93,12 +93,13 @@ public class ActivityGame_MJ extends AppCompatActivity {
         if(game_IMG_obstacle[3][playerLocation].getVisibility()==View.VISIBLE){
             if(life >1){
                 life--;
+                Toast.makeText(this, "You Lost 1 Life", Toast.LENGTH_SHORT).show();
             }
             else if (life==1){
+                Toast.makeText(this, "You Lost 1 Life", Toast.LENGTH_SHORT).show();
                 restartLives();
+                Toast.makeText(this, "Life's Full", Toast.LENGTH_SHORT).show();
             }
-
-            Toast.makeText(this, "You Lost 1 Life", Toast.LENGTH_SHORT).show();
             Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             v.vibrate(VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE));
         }
