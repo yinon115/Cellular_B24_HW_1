@@ -1,4 +1,4 @@
-# ObstacleGame
+# Battle Of The G.O.A.T's
 
-You are playing as basketball legend Michael Jordan trying to prevent Kobe Bryant from blocking him on his way to the basket
-
+In this game, you choose to play with basketball legend Kobe Bryand or Michael Jordan.
+The purpose of the game is to avoid the other player from blocking you.
